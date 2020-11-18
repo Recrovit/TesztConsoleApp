@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesztConsoleApp", "TesztConsoleApp\TesztConsoleApp.csproj", "{C6D8EA92-209A-4E72-8A3C-C73D67E87769}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodule", "submodule", "{889A9170-E9F0-48FA-AD5E-CE84C1AEE9CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesztClassLibrary", "TesztClassLibrary\TesztClassLibrary\TesztClassLibrary.csproj", "{A974D6E0-674D-49B6-880B-933F14F04790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C6D8EA92-209A-4E72-8A3C-C73D67E87769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D8EA92-209A-4E72-8A3C-C73D67E87769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D8EA92-209A-4E72-8A3C-C73D67E87769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A974D6E0-674D-49B6-880B-933F14F04790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A974D6E0-674D-49B6-880B-933F14F04790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A974D6E0-674D-49B6-880B-933F14F04790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A974D6E0-674D-49B6-880B-933F14F04790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A974D6E0-674D-49B6-880B-933F14F04790} = {889A9170-E9F0-48FA-AD5E-CE84C1AEE9CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {551C90CA-4E0B-4D91-A693-115752554561}

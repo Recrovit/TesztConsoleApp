@@ -1,0 +1,3 @@
+[submodule "TesztClassLibrary"]
+	path = TesztClassLibrary
+	url = https://github.com/Recrovit/TesztClassLibrary
