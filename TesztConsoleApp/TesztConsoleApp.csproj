@@ -9,4 +9,8 @@
     <ProjectReference Include="..\TesztClassLibrary\TesztClassLibrary\TesztClassLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="docs\" />
+  </ItemGroup>
+
 </Project>
